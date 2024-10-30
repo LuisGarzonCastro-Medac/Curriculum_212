@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+
+
+<form action="http://localhost/proceso.php" method="get">
+    <fieldset>
+        <legend><b>Datos Personales</b></legend>
+
+        <p> Nombre: <input type="text" name="Nombre"></p>
+        <p> Apellidos: <input type="text" name="Apellidos"></p>
+        <p>Edad: <input type="number" name="Edad"></p>
+        <p>
+            <input type="radio" name="sexo" value="h"> Hombre
+            <input type="radio" name="sexo" value="m">Mujer
+    </fieldset>
+    <fieldset>
+        <legend><b>Contacto</b></legend>
+        <p>Correo: <input type="text" name="Correo"></p>
+        <p>Código Postal: <input type="text" name="Código Postal"></p>
+        <p>Dirección: <input type="text" name="Dirección"></p>
+        <p>Ciudad</p>
+        <select name="Ciudad" size="1">
+            <option value="Jaén">Jaén</option>
+            <option value="Granada">Granada</option>
+            <option value="Córodoba">Córdoba</option>
+            <option value="Almería">Almería</option>
+            <option value="Cádiz">Cádiz</option>
+        </select>
+        <p>Contraseña: <input type="password" name="contraseña" size="22"> </p>
+        </select>
+    </fieldset>
+    <fieldset>
+        <legend><b>Datos De Interés</b></legend>
+        <p>Estado Civil:</p>
+        <p>
+            <input type="radio" name="sexo" value="h"> Casado
+            <input type="radio" name="sexo" value="m"> Soltero
+        </p>
+        <p>Hobbies</p>
+        <p><input type="checkbox" name="Deporte">Deporte</p>
+        <p><input type="checkbox" name="Cine">Cine</p>
+        <p><input type="checkbox" name="Lectura">Lectura</p>
+        <p><input type="checkbox" name="Correr">Correr</p>
+        </p>
+    </fieldset>
+    <fieldset>
+        <legend><b>Comentarios Adicionales</b></legend>
+        <p>Comentario</p>
+
+        <p><textarea placeholder="Escribe tus comentarios aqui..." rows="4" cols="27"></textarea></p>
+
+    </fieldset>
+    </p>
+    <input type="submit" value="Enviar"> <input type="submit" value="Resetear">
+
+
+</form>
+</body>
+
+</html>
